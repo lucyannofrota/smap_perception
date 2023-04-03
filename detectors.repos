@@ -3,9 +3,9 @@
 
 repositories:
 
-  # smap perception
+  # smap perception detectors
 
-  detectors/smap_perception_yolo_v5:
+  detectors/smap_yolo_v5:
     type: git
-    url: https://github.com/lucyannofrota/smap_perception_yolo_v5.git
+    url: https://github.com/lucyannofrota/smap_yolo_v5.git
     version: 1a3a9a0

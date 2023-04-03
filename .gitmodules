@@ -1,7 +1,8 @@
-[submodule "smap_classification_wrapper"]
-	path = smap_classification_wrapper
-	url = https://github.com/lucyannofrota/smap_classification_wrapper.git
 
-[submodule "smap_perception_yolo_v5"]
-	path = detectors/smap_perception_yolo_v5
-	url = https://github.com/lucyannofrota/smap_perception_yolo_v5.git
+[submodule "smap_perception_wrapper"]
+	path = smap_perception_wrapper
+	url = https://github.com/lucyannofrota/smap_perception_wrapper.git
+
+[submodule "smap_yolo_v5"]
+	path = detectors/smap_yolo_v5
+	url = https://github.com/lucyannofrota/yolo_v5.git

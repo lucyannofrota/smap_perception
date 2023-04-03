@@ -13,4 +13,4 @@ repositories:
   smap_perception_wrapper:
     type: git
     url: https://github.com/lucyannofrota/smap_perception_wrapper.git
-    version: 0c4c28b
+    version: 4546025

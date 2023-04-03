@@ -1,0 +1,18 @@
+# List of repositories to use within your workspace
+# See https://github.com/dirk-thomas/vcstool
+
+repositories:
+
+  # smap perception
+
+  smap_interfaces:
+    type: git
+    url: https://github.com/lucyannofrota/smap_interfaces.git
+    version: f13e796
+
+  smap_classification_wrapper:
+    type: git
+    url: https://github.com/lucyannofrota/smap_classification_wrapper.git
+    version: 0c4c28b
+
+

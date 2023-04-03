@@ -1,0 +1,11 @@
+[submodule "smap_interfaces"]
+	path = smap_interfaces
+	url = https://github.com/lucyannofrota/smap_interfaces.git
+
+[submodule "smap_classification_wrapper"]
+	path = smap_classification_wrapper
+	url = https://github.com/lucyannofrota/smap_classification_wrapper.git
+
+[submodule "smap_perception_yolo_v5"]
+	path = detectors/smap_perception_yolo_v5
+	url = https://github.com/lucyannofrota/smap_perception_yolo_v5.git

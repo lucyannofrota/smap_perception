@@ -1,0 +1,24 @@
+name: Build
+run-name: CI Build/Test
+on:
+  push:
+      # branches:
+      #   - c++
+
+jobs:
+  Build:
+    name: smap_perception build
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checking out smap_perception
+        uses: actions/checkout@v3
+      - name: Checking out smap_interfaces
+        uses: actions/checkout@v3
+        with:
+          repository: lucyannofrota/smap_interfaces.git
+          ref: main
+      - name: Building and testing
+        uses: ichiro-its/ros2-ci@v1.0.0
+        with:
+          ros2-distro: foxy
+
